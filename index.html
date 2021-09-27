@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Cartas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Jogo de Cartas</h1>
+
+        <button onClick="sortearCarta()" id="btnSortear">Sortear Carta</button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onClick="jogar()" disabled="false">Jogar</button>
+            <h2 id="resultado"></h2>
+            <h2 class="h2Jogador">Sua carta:</h2>
+            <h2 class="h2Maquina">Carta da Maquina:</h2>
+            <div id="exibirAtributo"></div><br>
+            <div id="exibirAtributoMaquina"></div>
+        </form>
+    </div>
+    <a href="http:github.com/EduardoRFX" target="_blank"><img src="img/github-logo_5.png" alt="github-logo" class="github-logo"></a>
+    <script src="index.js"></script>
+</body>
+</html>

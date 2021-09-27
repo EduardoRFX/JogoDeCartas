@@ -1,0 +1,3 @@
+- Da mensagem de erro caso não tenha selecionado o atributo 
+- Adicionar outras cartas
+- 

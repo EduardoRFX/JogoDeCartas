@@ -1,0 +1,200 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    min-height: 845px;
+    background-image: url("img/background.jpg");
+    background-color:#000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+
+.github-logo{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    background:#000000;
+    color:#ffffff;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ .h2Jogador {
+    color: #ffffff;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.h2Maquina {
+    color:#ffffff;
+    text-align: right;
+    margin-right: 40px;
+} 
+
+
+#exibirAtributo {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+    float:left;
+}
+
+#exibirAtributoMaquina{
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+    float: right;
+}
+
+
+/* #exibirAtributoMaquina{
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+} */
+
+#exibirAtributoMaquina{
+    text-align: center;
+}
+
+.carta-image {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 1.5rem;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+.carta-status  {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+#exibirAtributo #exibirAtributoMaquina {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+.opcoes {
+    color: white;
+}
+
+#resultado {
+    color: #000000;
+}
+
+/* .grupo {
+
+} */
+
+/* #exibirAtributo {
+    color: #000000;
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#exibirAtributoMaquina{
+    color: #000000;
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+} */
